@@ -3,13 +3,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
-import { WheatherComponent } from './wheather/wheather.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { WeatherComponent } from './weather/weather.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    WheatherComponent
+    WeatherComponent
   ],
   imports: [
     BrowserModule,

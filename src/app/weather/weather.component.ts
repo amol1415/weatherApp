@@ -3,11 +3,11 @@ import { FormBuilder, Validators } from '@angular/forms';
 import { DataService } from '../data.service';
 
 @Component({
-  selector: 'app-wheather',
-  templateUrl: './wheather.component.html',
-  styleUrls: ['./wheather.component.css']
+  selector: 'app-weather',
+  templateUrl: './weather.component.html',
+  styleUrls: ['./weather.component.css']
 })
-export class WheatherComponent {
+export class WeatherComponent {
   public stdData: any;
   public weatherData: any;
 
